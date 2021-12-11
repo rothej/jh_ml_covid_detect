@@ -16,3 +16,5 @@ Other files:
 xray_cov_3class.mlx was the above MATLAB script with Viral Pneumonia images added (did not perform well).
 xray_cov_3class_opt.mlx was ran to find optimal values (BoxConstraint and KernelValue).
 xray_cov_deep.mlx was a script that used a basic deeplearning CNN to try to accomplish the 3-class task (also performed poorly).
+xray_cov_3class_knn.mlx was ran to try a KNN model, performed poorly.
+xray_cov_3class_naivebayes was ran to try a Naive Bayes model, performed poorly.
