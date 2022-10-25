@@ -4,7 +4,7 @@
 ## Summary of Results:
 The model was 99.9% accurate at detecting COVID infection when given a dataset of healthy and COVID-infected patient images.
 The model performed poorly when Viral Pneumonia patient images were added, as the images were too similar for the model to classify accurately.
-Switching from fitcecoc to a deeplearning CNN did not improve accuracy measurably. Either a more complex model, or more carefully processed input images, would likely be necessary (or both).
+Switching from fitcecoc to a deeplearning CNN did not improve accuracy measurably. Either a more complex model, or more carefully processed input images, would likely be necessary (or both). As it sits, this is essentially merely a respitory infection detector.
 
 X-ray images obtained from: https://www.kaggle.com/preetviradiya/covid19-radiography-dataset
 
@@ -20,8 +20,8 @@ xray_cov_3class.mlx was the above MATLAB script with Viral Pneumonia images adde
 
 xray_cov_3class_opt.mlx was ran to find optimal values (BoxConstraint and KernelValue).
 
-xray_cov_deep.mlx was a script that used a basic deeplearning CNN to try to accomplish the 3-class task (also performed poorly).
+xray_cov_deep.mlx was a script that used a basic deeplearning CNN to try to accomplish the 3-class task.
 
-xray_cov_3class_knn.mlx was ran to try a KNN model, performed poorly.
+xray_cov_3class_knn.mlx was ran to try a KNN model.
 
-xray_cov_3class_naivebayes was ran to try a Naive Bayes model, performed poorly.
+xray_cov_3class_naivebayes was ran to try a Naive Bayes model.
